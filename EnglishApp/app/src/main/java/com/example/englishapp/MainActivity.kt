@@ -21,6 +21,10 @@ class MainActivity : AppCompatActivity() {
         btntuhangngay.setOnClickListener{
             Toast.makeText(this,"Bạn đã click vào từ hàng ngày",Toast.LENGTH_LONG).show()
         }
+        btnbatcauhoingaunhien.setOnClickListener{
+            Toast.makeText(this,"Bạn đã click vào câu hỏi ngẫy nhiên",Toast.LENGTH_LONG).show()
+        }
+
     }
 
 }
