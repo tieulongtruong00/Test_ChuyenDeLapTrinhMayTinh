@@ -67,10 +67,27 @@
         android:background="@drawable/kiemtra"
         />
     <Button
+        android:id="@+id/btncaidatnangcao"
+        android:layout_marginTop="30dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Cài đặt nâng cao"
         android:layout_below="@id/btntuhangngay"
+        />
+    <Button
+        android:id="@+id/btnbatcauhoingaunhien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bật câu hỏi ngẫu nhiên"
+        android:layout_below="@id/btncaidatnangcao"
+        />
+    <TextView
+        android:id="@+id/txtbaomat"
+        android:layout_below="@id/btnbatcauhoingaunhien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/baomat"
+        android:gravity="center"
         />
 
 </RelativeLayout>
