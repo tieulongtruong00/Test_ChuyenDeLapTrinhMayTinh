@@ -15,12 +15,14 @@
         />
     <Button
         android:id="@+id/btndanhsachtu"
-        android:layout_marginRight="11dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
         android:layout_marginTop="40dp"
         android:textColor="#ffff"
         android:layout_below="@id/title"
         android:layout_width="200dp"
         android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
         android:text="Danh sách từ"
         android:textStyle="bold"
         android:textSize="18sp"
@@ -29,8 +31,11 @@
         />
     <Button
         android:id="@+id/btnluyentap"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
         android:layout_marginTop="40dp"
         android:layout_toRightOf="@id/btndanhsachtu"
+        android:layout_alignParentRight="true"
         android:textColor="#ffff"
         android:textStyle="bold"
         android:textSize="18sp"
@@ -42,8 +47,8 @@
         />
     <Button
         android:id="@+id/btnkiemtra"
-        android:layout_marginRight="11dp"
-        android:layout_marginTop="10dp"
+        android:layout_margin="10dp"
+        android:layout_alignParentLeft="true"
         android:textColor="#ffff"
         android:textStyle="bold"
         android:textSize="18sp"
@@ -54,16 +59,16 @@
         android:background="@drawable/luyentu"
         />
     <Button
+        android:layout_margin="10dp"
         android:id="@+id/btntuhangngay"
-        android:layout_marginTop="10dp"
         android:textColor="#ffff"
         android:textStyle="bold"
         android:textSize="18sp"
-        android:layout_toRightOf="@id/btnkiemtra"
+        android:layout_alignParentRight="true"
         android:layout_below="@id/btndanhsachtu"
         android:layout_width="200dp"
         android:layout_height="200dp"
-        android:text="Kiểm tra"
+        android:text="TỪ HÀNG NGÀY"
         android:background="@drawable/kiemtra"
         />
     <Button

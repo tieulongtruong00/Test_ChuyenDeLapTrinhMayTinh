@@ -8,7 +8,7 @@ import kotlinx.android.synthetic.main.activity_home.*
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_home)
         btndanhsachtu.setOnClickListener{
             Toast.makeText(this,"Bạn đã click vào danh sách từ",Toast.LENGTH_LONG).show()
         }
