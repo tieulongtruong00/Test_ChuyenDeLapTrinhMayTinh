@@ -84,12 +84,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Bật câu hỏi ngẫu nhiên"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#ffff"
         android:layout_below="@id/btncaidatnangcao"
         />
     <TextView
         android:id="@+id/txtbaomat"
         android:layout_below="@id/btnbatcauhoingaunhien"
         android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:textSize="18sp"
         android:layout_height="wrap_content"
         android:text="@string/baomat"
         android:gravity="center"
