@@ -4,4 +4,10 @@
     <color name="colorPrimaryDark">#3165ff</color>
     <color name="colorAccent">#3165ff</color>
     <color name="xanhnen">#5db0ff3b</color>
+    <color name="background">#4cd137</color>
+    <color name="chutrang">#fff</color>
+    <color name="chuden">#000</color>
+    <color name="nen">#fbc531</color>
+
+
 </resources>
