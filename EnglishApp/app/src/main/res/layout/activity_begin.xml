@@ -36,19 +36,19 @@
             android:layout_margin="10dp"
             android:background="@drawable/button"
             android:textColor="@color/chutrang"
-            android:layout_width="170dp"
-            android:layout_height="130dp"
+            android:layout_width="170sp"
+            android:layout_height="130sp"
             android:text="Luyện Từ">
         </Button>
         <Button
             android:textAllCaps="false"
-            android:layout_margin="10dp"
+            android:layout_margin="10sp"
             android:id="@+id/btndanhsachtu"
             android:background="@drawable/button"
             android:textColor="@color/chutrang"
             android:textSize="25sp"
-            android:layout_width="170dp"
-            android:layout_height="130dp"
+            android:layout_width="170sp"
+            android:layout_height="130sp"
             android:text="Danh Sách Từ">
         </Button>
         <Button
@@ -58,8 +58,8 @@
             android:textColor="@color/chutrang"
             android:background="@drawable/button"
             android:textSize="25sp"
-            android:layout_width="170dp"
-            android:layout_height="130dp"
+            android:layout_width="170sp"
+            android:layout_height="130sp"
             android:text="Động Từ Bất Quy Tắc">
         </Button>
 
